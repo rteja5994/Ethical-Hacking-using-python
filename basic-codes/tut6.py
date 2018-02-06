@@ -11,5 +11,10 @@ def Main():
 
 	for word in words:
 		print(word)
+	
+	num = 0
+	while num <= 0:
+		num = int(input("please enter a positive integer: "))
+
 if __name__=="__main__":
 	Main()
