@@ -16,5 +16,9 @@ def Main():
 	while num <= 0:
 		num = int(input("please enter a positive integer: "))
 
+	while True:
+		print("hello")
+	#infinte loop expression
+
 if __name__=="__main__":
 	Main()
